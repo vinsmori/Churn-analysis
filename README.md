@@ -1,4 +1,4 @@
-🚀 Churn Analysis with Machine Learning
+## 🚀 Churn Analysis with Machine Learning
 
 Churn modeling using scikit-learn pipelines, ColumnTransformer, hyperparameter search, model persistence, and a real-time inference demo (Streamlit).
 
@@ -6,8 +6,9 @@ This project applies an end-to-end machine learning workflow to predict customer
 It includes data preprocessing, feature engineering, model training, evaluation, and deployment.
 
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 churn_analysis/
 │
 ├── data/
@@ -31,8 +32,9 @@ churn_analysis/
 │   └── app.py          # Streamlit demo for interactive predictions
 │
 └── README.md
+```
 
-🎯 Objectives
+## 🎯 Objectives
 
 	•	Build a reproducible ML pipeline using scikit-learn
 	•	Perform feature engineering for mixed numeric/categorical data
@@ -42,7 +44,7 @@ churn_analysis/
 	•	Deploy a simple Streamlit app for real-time churn prediction
 
     
-    🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 	•	Python 3.x
 	•	pandas, numpy
@@ -52,12 +54,12 @@ churn_analysis/
 	•	Streamlit (demo app)
 
 
-▶️ How to Run
+## ▶️ How to Run
 
 1. Create and activate the virtual environment
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
-# .venv\Scripts\Activate.ps1  # Windows
+.venv\Scripts\Activate.ps1  # Windows
 
 2. Install dependencies
 pip install -r requirements.txt
@@ -69,7 +71,7 @@ Inside the notebooks/ folder, open the .ipynb files with Jupyter or VS Code.
 4. Run the Streamlit app (after training the model)
 streamlit run app/app.py
 
-📦 Dataset
+## 📦 Dataset
 
 This project uses the Telco Customer Churn dataset (publicly available on Kaggle).
 
@@ -79,7 +81,7 @@ data/raw/
 File name: 
 Telco-Customer-Churn.csv
 
-📈 Roadmap (to be completed)
+## 📈 Roadmap (to be completed)
 	•	Complete exploratory data analysis (notebook 01)
 	•	Build preprocessing and feature engineering pipeline
 	•	Train baseline models
@@ -91,7 +93,7 @@ Telco-Customer-Churn.csv
 
 
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Vinícius Mori
 Data Science & Machine Learning - Engineering Student (Télécom Paris / Paris Dauphine)
