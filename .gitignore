@@ -1,0 +1,37 @@
+# -------------------
+# PYTHON BASICS
+# -------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# -------------------
+# VIRTUAL ENV
+# -------------------
+.venv/
+
+# -------------------
+# JUPYTER
+# -------------------
+.ipynb_checkpoints/
+
+# -------------------
+# DATA
+# NUNCA envie dados sensíveis ou pesados para o GitHub
+# (depois você pode liberar apenas 1 CSV exemplo)
+# -------------------
+data/raw/*
+data/processed/*
+
+# -------------------
+# MODELS
+# (modelos podem ser pesados, melhor não versionar no início)
+# -------------------
+models/*
+
+# -------------------
+# STREAMLIT / TEMP
+# -------------------
+*.log
