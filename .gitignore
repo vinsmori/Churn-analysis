@@ -34,4 +34,4 @@ models/*
 # -------------------
 # STREAMLIT / TEMP
 # -------------------
-*.log
+*.log.DS_Store
